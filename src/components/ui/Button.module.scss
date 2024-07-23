@@ -1,4 +1,4 @@
 .button{
-    @apply flex items-center bg-primary rounded-3xl py-2 px-6 text-[#1C1330] hover:bg-blend-lighten;
-    @apply text-xl
+    @apply flex items-center justify-center bg-primary rounded-full py-2 px-10 text-[#1C1330] ;
+    @apply text-[28px] shadow-current shadow;
 }
