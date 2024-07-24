@@ -12,6 +12,7 @@
 html{
   font-family: Namu;
   color: #fff;
+  @apply bg-mainbg;
 }
 
 
