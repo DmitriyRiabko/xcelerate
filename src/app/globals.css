@@ -20,3 +20,10 @@ p{
   display: inline;
   @apply text-primary
 }
+
+
+
+.line{
+  background: linear-gradient(180deg, rgba(49, 10, 14, 0) 0%, rgb(176, 61, 72) 50%, rgba(26, 3, 6, 0.166) 100%);
+  opacity: 0.4;
+}
