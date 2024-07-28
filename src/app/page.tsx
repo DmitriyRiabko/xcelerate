@@ -101,17 +101,16 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-full flex flex-col gap-4 md:flex-row md:px-[40px] xl:px-[150px] my-[80px] justify-between text-[15px] md:text-[23px] md:items-center">
-          <div className=" px-7 py-5 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover bg-no-repeat w-fit  max-w-[400px]">
+        <div className="p-3 w-full flex flex-col gap-4 lg:flex-row md:px-[40px] xl:px-[150px] md:my-[80px] justify-between text-[15px] md:text-[20px] items-center lg:items-start ">
+          <div className=" px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat  h-auto w-full max-w-[400px]">
             Динамічна тіма, яка завжди на хвилі передових технологій та
             тенденцій в affiliate-індустрії
           </div>
-          <div className="p-5 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover bg-no-repeat w-fit">
+          <div className="px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat w-fit">
             Потужні джерела трафіку
           </div>
-          <div className=" p-5 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover bg-no-repeat   w-fit max-w-[400px]">
-            Тіммейти з великим досвідом, в оточенні яких постійно примножуються
-            цінні знання
+          <div className="px-6 py-4  flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat   w-full max-w-[400px] ">
+            Тіммейти з великим досвідом, в оточенні яких постійно примножуються цінні знання
           </div>
         </div>
 
