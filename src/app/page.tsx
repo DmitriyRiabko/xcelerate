@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import Circle from "@/components/ui/Circle";
 import { benefitsList, hrLink } from "@/config";
 
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh]  bg-mainbg ">

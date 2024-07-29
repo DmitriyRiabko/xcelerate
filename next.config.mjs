@@ -6,7 +6,8 @@
 const nextConfig = {
     output:'export',
     basePath:'/xcelerate/',
-    asserts:'http://dmitriyriabko.github.io/xcelerate/'
+    assetPrefix:'/',
+    
 
 }
 
