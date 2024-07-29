@@ -4,7 +4,7 @@
 const isProd = process.env.NODE_ENV === 'production'
  
 module.exports = {
-  assetPrefix: isProd ? 'https://cdn.mydomain.com' : undefined,
+  assetPrefix: isProd ? 'http://dmitriyriabko.github.io/xcelerate/' : undefined,
 }
 
 const nextConfig = {
