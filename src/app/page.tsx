@@ -2,7 +2,7 @@ import CompIcon from "@/assets/icons/Comp";
 import Header from "@/components/header";
 import { Button } from "@/components/ui/Button";
 import Circle from "@/components/ui/Circle";
-import { benefitsList } from "@/config";
+import { benefitsList, hrLink } from "@/config";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/images/background.png')] bg-no-repeat overflow-hidden">
         <div className="p-7 md:p-[100px] pt-[10%] ">
           <Header />
-          <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[24px] mb-[70px]">
+          <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[28px] mb-[70px]">
             <p> Якість трафіку</p> - це наше кермо, що керує напрямком,
             <p> швидкість у всіх процесах</p> - це двигун, що прискорює наш
             прогрес, а <p>аналітика</p> - це мапа, яка допомагає нам зрозуміти,
@@ -29,7 +29,7 @@ export default function Home() {
               <span className="text-[#F05262]">?</span>
             </h1>
           </div>
-          <div className="w-full lg:max-w-[55%] text-[20px] md:text-[24px]   mb-[60px] xl:mb-[120px] leading-9">
+          <div className="w-full lg:max-w-[55%] text-[20px] md:text-[28px]   mb-[60px] xl:mb-[120px] leading-9">
             Ми - медіабаїнгова команда, яка за рік свого існування на ринку
             збудувала з нуля всі процеси та, створивши простір з усім необхідним
             для розвитку, масштабування й підкорення нових висот, стрімко вийшла
@@ -37,10 +37,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col-reverse justify-between w-full gap-10 items-center mb-10 md:mb-[100px] lg:flex-row md">
             <div className="flex flex-2 w-full justify-center items-center">
-              <Button>Приєднатися</Button>
+              <a href={hrLink}>
+                <Button>Приєднатися</Button>
+              </a>
             </div>
 
-            <div className="flex-3 text-[20px] md:text-[24px] leading-9">
+            <div className="flex-3 text-[20px] md:text-[28px] leading-9">
               Виходити за рамки дозволеного, аналізувати, тестувати. Наша мета -
               підривати індустрію своїми результатами, рухаючись до своїх цілей
               зі швидкістю світла!
@@ -76,7 +78,7 @@ export default function Home() {
           <h1 className="mt-12 xl:mr-80 lg:mt-[100px] text-[28px] lg:text-[50px] z-10">
             Наші цінності:
           </h1>
-          <div className="flex w-full flex-col h-full lg:ml-32 test-[18px] justify-between lg:text-[35px]  z-10 p-4 sm:p-10 max-h-[500px]">
+          <div className="flex w-full flex-col h-full lg:ml-32 text-[20px] justify-between lg:text-[35px]  z-10 p-4 sm:p-10 max-h-[500px]">
             <div className="ml-0 sm:ml-20 flex gap-10 items-center ">
               <Circle /> <span>Якість над усе</span>
             </div>
@@ -101,21 +103,22 @@ export default function Home() {
           />
         </div>
 
-        <div className="p-3 w-full flex flex-col gap-4 lg:flex-row md:px-[40px] xl:px-[150px] md:my-[80px] justify-between text-[15px] md:text-[20px] items-center lg:items-start ">
-          <div className=" px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat  h-auto w-full max-w-[400px]">
+        <div className="p-3 w-full flex flex-col gap-7 lg:flex-row md:px-[40px] text-center lg:text-left xl:px-[150px] mt-[60px] justify-between text-[15px] md:text-[20px] items-center lg:items-start ">
+          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto w-[80%] lg:w-full lg:max-w-[400px] ">
             Динамічна тіма, яка завжди на хвилі передових технологій та
             тенденцій в affiliate-індустрії
           </div>
-          <div className="px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat w-fit">
+          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat w-full lg:max-w-[400px]">
             Потужні джерела трафіку
           </div>
-          <div className="px-6 py-4  flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-contain bg-no-repeat   w-full max-w-[400px] ">
-            Тіммейти з великим досвідом, в оточенні яких постійно примножуються цінні знання
+          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('/images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
+            Тіммейти з великим досвідом, в оточенні яких постійно примножуються
+            цінні знання
           </div>
         </div>
 
         <div className="w-screen h-screen max-h-[160px] lg:max-h-[310px]  bg-[url('/images/vacancy.png')] bg-bottom bg-contain bg-no-repeat  " />
-        <div className="h-[2px]   line w-full mb-10 "></div>
+        <div className="h-[2px]   line w-full my-5 "></div>
 
         <div className="flex flex-col gap-5 items-center px-10 lg:mt-10 h-[60vh]">
           <p className="text-center uppercase  text-[30px] lg:text-[80px]">
@@ -126,7 +129,7 @@ export default function Home() {
           </h2>
 
           <a
-            href="tg://resolve?domain=hrm_yana"
+            href={hrLink}
             className="rounded-full border-2 border-[#84F5B1] text-[#84F5B1] text-xl md:text-2xl px-8 py-2 hover:bg-[#84F5B1] transition-all hover:text-gray-700 active:bg-[#84F5B1]"
           >
             Надіслати CV

@@ -6,10 +6,21 @@ import MerchIcon from "./assets/icons/Merch";
 import MessageIcon from "./assets/icons/Message";
 import StuffIcon from "./assets/icons/Stuff";
 
+
+
+export const hrLink = 'tg://resolve?domain=hrm_yana'
+
+
+
+
+
+
+
 interface BenefitItem {
   text: string;
   icon: React.ReactNode;
 }
+
 
 export const benefitsList: BenefitItem[] = [
   {
@@ -41,3 +52,6 @@ export const benefitsList: BenefitItem[] = [
     icon: <MessageIcon />,
   },
 ];
+
+
+
