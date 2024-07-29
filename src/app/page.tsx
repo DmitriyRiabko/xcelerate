@@ -7,7 +7,7 @@ import { benefitsList, hrLink } from "@/config";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh]  bg-mainbg ">
-      <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/dmitriyriabko.github.io'/xcelerate/images/background.png')] bg-no-repeat overflow-hidden">
+      <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/images/background.png')] bg-no-repeat overflow-hidden">
         <div className="p-7 md:p-[100px] pt-[10%] ">
           <Header />
           <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[28px] mb-[70px]">
@@ -92,26 +92,26 @@ export default function Home() {
           </div>
 
           <img
-            src="/images/mol.png"
+            src="./images/mol.png"
             alt="mol"
             className="absolute right-[-50px] h-[340px] lg:h-[800px] -z-2"
           />
           <img
-            src="/images/money.png"
+            src="./images/money.png"
             alt="money"
             className="absolute  left-[2%] lg:left-[10%] top-[-80px] h-[180px] lg:h-[290px] -z-2"
           />
         </div>
 
         <div className="p-1 sm:p-3 w-full flex flex-col gap-7 lg:flex-row md:px-[40px] text-center lg:text-left xl:px-[150px] mt-[60px] justify-between text-[13px] sm:text-[15px] md:text-[20px] items-center lg:items-start ">
-          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
+          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('./images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
             Динамічна тіма, яка завжди на хвилі передових технологій та
             тенденцій в affiliate-індустрії
           </div>
-          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
+          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('./images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
             Потужні джерела трафіку
           </div>
-          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('/images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
+          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('./images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
             Тіммейти з великим досвідом, в оточенні яких постійно примножуються
             цінні знання
           </div>

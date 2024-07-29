@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
     output:'export',
-    assetPrefix:'/xcelerate/',
-    basePath:'/xcelerate'
+    basePath:'/xcelerate',
+
+    assetPrefix: isProd ? 'http://dmitriyriabko.github.io/xcelerate/' : undefined,
     
 };
 
