@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output:'export',
-    assetPrefix:'/xcelerate/',
-    basePath:'/xcelerate'
+    assetPrefix:'/dmitriyriabko.github.io/xcelerate/',
+    basePath:'/dmitriyriabko.github.io/xcelerate'
     
 };
 
