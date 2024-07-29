@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output:'export',
-    assetPrefix:'/xcelerate',
+    assetPrefix:'/xcelerate/',
     basePath:'/xcelerate'
     
 };
