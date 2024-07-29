@@ -6,7 +6,7 @@
 const nextConfig = {
     output:'export',
     basePath:'/xcelerate/',
-    assetPrefix:'/',
+    assetPrefix:'./',
     
 
 }
