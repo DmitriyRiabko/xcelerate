@@ -104,14 +104,14 @@ export default function Home() {
         </div>
 
         <div className="p-1 sm:p-3 w-full flex flex-col gap-7 lg:flex-row md:px-[40px] text-center lg:text-left xl:px-[150px] mt-[60px] justify-between text-[13px] sm:text-[15px] md:text-[20px] items-center lg:items-start ">
-          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('./images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
+          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
             Динамічна тіма, яка завжди на хвилі передових технологій та
             тенденцій в affiliate-індустрії
           </div>
-          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('./images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
+          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('/images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
             Потужні джерела трафіку
           </div>
-          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('./images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
+          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('/images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
             Тіммейти з великим досвідом, в оточенні яких постійно примножуються
             цінні знання
           </div>
