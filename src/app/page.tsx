@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import { Button } from "@/components/ui/Button";
 import Circle from "@/components/ui/Circle";
 import { benefitsList, hrLink } from "@/config";
+import logo from '../../public/images/logo.png'
 
 
 export default function Home() {
