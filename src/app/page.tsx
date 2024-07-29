@@ -7,7 +7,7 @@ import { benefitsList, hrLink } from "@/config";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh]  bg-mainbg ">
-      <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/images/background.png')] bg-no-repeat overflow-hidden">
+      <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/dmitriyriabko.github.io'/xcelerate/images/background.png')] bg-no-repeat overflow-hidden">
         <div className="p-7 md:p-[100px] pt-[10%] ">
           <Header />
           <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[28px] mb-[70px]">
