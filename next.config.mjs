@@ -6,8 +6,12 @@ const nextConfig = {
     output:'export',
     basePath:'/xcelerate',
 
-    assetPrefix: isProd ? 'http://dmitriyriabko.github.io/xcelerate/' : undefined,
+
     
-};
+    
+}
+module.exports = {
+    assetPrefix: isProd ? 'http://dmitriyriabko.github.io/xcelerate/' : undefined,
+  }
 
 export default nextConfig;
