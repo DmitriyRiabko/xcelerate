@@ -4,12 +4,15 @@ import { Button } from "@/components/ui/Button";
 import Circle from "@/components/ui/Circle";
 import { benefitsList, hrLink } from "@/config";
 import logo from '../../public/images/logo.png'
-
+import background from './../../public/images/background.png'
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh]  bg-mainbg ">
-      <main className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/xcelerate/images/background.png')] bg-no-repeat overflow-hidden">
+      <main 
+      style={{backgroundImage:background}}
+      
+      className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/xcelerate/images/background.png')] bg-no-repeat overflow-hidden">
         <div className="p-7 md:p-[100px] pt-[10%] ">
           <Header />
           <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[28px] mb-[70px]">

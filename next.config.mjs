@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 
-
+const prod  = false
 
 
 const nextConfig = {
     output:'export',
-    basePath:'/xcelerate',
-    assetPrefix:'/xcelerate',
+    basePath: '/xcelerate',
+    assetPrefix: ''
     
 
 }
