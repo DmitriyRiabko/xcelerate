@@ -3,16 +3,16 @@ import Header from "@/components/header";
 import { Button } from "@/components/ui/Button";
 import Circle from "@/components/ui/Circle";
 import { benefitsList, hrLink } from "@/config";
-import logo from '../../public/images/logo.png'
-import background from './../../public/images/background.png'
+import hand  from './../assets/images/hand.png'
+import mol from './../assets/images/mol.png'
+import money from './../assets/images/money.png'
+
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh]  bg-mainbg ">
-      <main 
-      style={{backgroundImage:background}}
-      
-      className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('/xcelerate/images/background.png')] bg-no-repeat overflow-hidden">
+      <main       
+      className="flex flex-col items-center max-w-[1920px] w-full shadow-2xl  bg-cover bg-top bg-[url('./../assets/images/background.png')] bg-no-repeat overflow-hidden">
         <div className="p-7 md:p-[100px] pt-[10%] ">
           <Header />
           <div className="w-full lg:max-w-[50%] text-[17px] sm:text-[28px] mb-[70px]">
@@ -25,7 +25,7 @@ export default function Home() {
             className="flex w-full 
           sm:w-full mb-10 items-end justify-end flex-col 
           bg-left-bottom bg-contain bg-no-repeat text-primary 
-          text-[50px] md:text-[95px]  bg-[url('/xcelerate/images/mountain.png')] 
+          text-[50px] md:text-[95px]  bg-[url('./../assets/images/mountain.png')] 
           h-full sm:h-screen max-h-[419px] "
           >
             <h1>ХТО</h1>
@@ -59,7 +59,7 @@ export default function Home() {
                 Що ти отримаєш, ставши частиною нашого <p>community:</p>
               </h1>
               <img
-                src="./images/hand.png"
+                src={hand.src}
                 alt="hand image"
                 className=" left-[-150px] top-[150px] absolute hidden xl:inline"
               />
@@ -97,32 +97,32 @@ export default function Home() {
           </div>
 
           <img
-            src="./images/mol.png"
+            src={mol.src}
             alt="mol"
             className="absolute right-[-50px] h-[340px] lg:h-[800px] -z-2"
           />
           <img
-            src="./images/money.png"
+            src={money.src}
             alt="money"
             className="absolute  left-[2%] lg:left-[10%] top-[-80px] h-[180px] lg:h-[290px] -z-2"
           />
         </div>
 
         <div className="p-1 sm:p-3 w-full flex flex-col gap-7 lg:flex-row md:px-[40px] text-center lg:text-left xl:px-[150px] mt-[60px] justify-between text-[13px] sm:text-[15px] md:text-[20px] items-center lg:items-start ">
-          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('/xcelerate/images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
+          <div className="lg:order-1 px-6 py-4 flex justify-center items-center bg-top bg-[url('./../assets/images/border-box.png')] bg-cover lg:bg-contain bg-no-repeat  h-auto max-w-[80%] lg:w-full lg:max-w-[400px] ">
             Динамічна тіма, яка завжди на хвилі передових технологій та
             тенденцій в affiliate-індустрії
           </div>
-          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('/xcelerate/images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
+          <div className="order-3 lg:order-2 px-6 py-4 flex justify-center items-center bg-top bg-[url('./../assets/images/border-box.png')]  bg-contain bg-no-repeat w-full lg:max-w-[400px]">
             Потужні джерела трафіку
           </div>
-          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('/xcelerate/images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
+          <div className="lg:order-3 px-6 py-4  flex justify-center items-center bg-top bg-[url('./../assets/images/border-box.png')]  bg-cover lg:bg-contain bg-no-repeat h-auto   w-[70%] lg:w-full  lg:max-w-[400px] ">
             Тіммейти з великим досвідом, в оточенні яких постійно примножуються
             цінні знання
           </div>
         </div>
 
-        <div className="w-screen h-screen max-h-[160px] lg:max-h-[310px]  bg-[url('/xcelerate/images/vacancy.png')] bg-bottom bg-contain bg-no-repeat  " />
+        <div className="w-screen h-screen max-h-[160px] lg:max-h-[310px]  bg-[url('./../assets/images/vacancy.png')] bg-bottom bg-contain bg-no-repeat  " />
         <div className="h-[2px]   line w-full my-5 "></div>
 
         <div className="flex flex-col gap-5 items-center px-10 lg:mt-10 h-[60vh]">
